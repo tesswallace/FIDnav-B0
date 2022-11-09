@@ -2,11 +2,15 @@
 FIRE implementation of FID-navigated dynamic B0 field measurement and correction as described in Wallace et al. Magn Reson Med (2020).
 
 To run server:
+
 docker pull tesswallace/fire-matlab-server-fidnav
+
 docker run -p=9302:9002 --rm -it --name fireserver -v $PWD:/tmp tesswallace/fire-matlab-server-fidnav
 
 To run client:
+
 docker pull tesswallace/fire-client-fidnav:latest
+
 docker run -p=9202:9002 --rm -it --name fireclient -v $PWD:/tmp tesswallace/fire-client-fidnav /bin/bash
 
 Calibration Step 1
