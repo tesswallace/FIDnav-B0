@@ -1,6 +1,10 @@
 # FIDnav-B0
 FIRE implementation of FID-navigated dynamic B0 field measurement and correction as described in Wallace et al. Magn Reson Med (2020).
 
+These server configuration files are used with Kelvin Chow's Matlab FIRE server code, which may be accessed here:
+
+https://github.com/kspaceKelvin/matlab-ismrmrd-server
+
 To run server:
 
 docker pull tesswallace/fire-matlab-server-fidnav
